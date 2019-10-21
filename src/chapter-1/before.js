@@ -42,4 +42,6 @@ function statement(invoice, plays) {
     return result;
 }
 
-console.log(statement(invoices[0], plays));
+// console.log(statement(invoices[0], plays));
+
+module.exports = statement;
